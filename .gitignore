@@ -1,0 +1,26 @@
+# Maven: carpeta que se regenera al compilar
+target/
+dependency-reduced-pom.xml
+
+# Compilados y paquetes
+*.class
+*.jar
+*.war
+
+# Registros
+*.log
+hs_err_pid*
+
+# IDEs y editores
+.idea/
+*.iml
+.vscode/
+.classpath
+.project
+.settings/
+.antigravity/
+
+# Sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
