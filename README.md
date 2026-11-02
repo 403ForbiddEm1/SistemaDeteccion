@@ -15,7 +15,7 @@ Tiene **modo claro** (por defecto) y **modo oscuro** (botón en el encabezado).
 |---|---|---|---|
 | **JDK** (Java Development Kit) | **17 o superior** (probado con 25.0.4, Eclipse Adoptium) | Se instala en el PC. En este equipo: `C:\Program Files\Eclipse Adoptium\jdk-25.0.4.101-hotspot` | Compilar y ejecutar el código Java |
 | **Apache Maven** | **3.9.x** (probado con 3.9.9) | Se descomprime en el PC. En este equipo: `C:\apache-maven-3.9.9-bin\apache-maven-3.9.9` | Descargar las bibliotecas, compilar y ejecutar el proyecto |
-| **JavaFX** | 21.0.5 | **No se instala a mano**: Maven lo descarga solo (carpeta `C:\Users\<usuario>\.m2`) | Crear la interfaz gráfica |
+| **JavaFX** | 21.0.5 | **No se instala a mano**: Maven lo descarga solo (carpeta `C:\Users\TU_USUARIO\.m2`) | Crear la interfaz gráfica |
 | **jSerialComm** | 2.11.4 | **No se instala a mano**: Maven lo descarga solo | Comunicar Java con el Arduino por el puerto serial |
 | **Arduino IDE** | Cualquier versión reciente | Descarga desde arduino.cc | Subir el sketch `deteccion.ino` al Arduino |
 | Biblioteca **DHT sensor library** (Adafruit) y **Adafruit Unified Sensor** | Las últimas | Se instalan desde el IDE: *Herramientas → Administrar bibliotecas* | Leer el sensor de temperatura DHT11 |
@@ -43,7 +43,7 @@ mvn -version
 2. Ubícate en la carpeta del proyecto, la que contiene el archivo `pom.xml`:
 
    ```powershell
-   cd C:\Users\ppc\OneDrive\Desktop\SistemaDeteccion
+   cd ruta\a\SistemaDeteccion
    ```
 
 3. **Solo si `mvn` no se reconoce** (por ejemplo, en una terminal nueva), ejecuta estas dos líneas:
@@ -219,5 +219,3 @@ El MQ-2 necesita calentarse unos minutos para dar lecturas estables.
 | **CSS** | Lenguaje de estilos; aquí define los colores y el aspecto de la ventana. |
 | **Modo simulación** | Modo en que la aplicación genera datos falsos para probarla sin Arduino. |
 | **Incidencia** | Un evento de riesgo registrado en el historial. |
-#   S i s t e m a D e t e c c i o n  
- 
